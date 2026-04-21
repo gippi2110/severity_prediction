@@ -474,7 +474,7 @@ with st.sidebar:
     st.markdown("### ⚙ Configuration")
     model_path = st.text_input(
         "Model weights path",
-        value="/kaggle/working/processed/model.keras",
+        value="model.keras",
         help="Path to trained .keras model file")
     st.markdown("---")
     st.markdown(
